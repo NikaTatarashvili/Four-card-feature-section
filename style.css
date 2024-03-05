@@ -1,0 +1,126 @@
+:root {
+    --bg-color: #fafafa;
+    --red: #ea5454;
+    --syan: #44d3d2;
+    --orange: #fcae4a;
+    --light-blue: #549ef2;
+    --dark-blue: #4d4f62;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins";
+    font-style: normal;
+    color: var(--dark-blue);
+    background-color: var(--bg-color);
+  }
+  .wrapper {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  header {
+    max-width: 540px;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 275;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.166667px;
+    margin-top: 85px;
+    margin-bottom: 13px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.104167px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    max-width: 540px;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .box p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.0902778px;
+    text-align: left;
+    max-width: 286px;
+  }
+  main {
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 311px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  }
+  .content {
+    width: 82%;
+    height: 82%;
+    margin-top: 20px;
+  }
+  .icon-box {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 33px;
+    margin-bottom: 28px;
+  }
+  #syan {
+    border-top: 3.5px solid var(--syan);
+  }
+  #red {
+    border-top: 3.5px solid var(--red);
+  }
+  #orange {
+    border-top: 3.5px solid var(--orange);
+  }
+  #light-blue {
+    border-top: 3.5px solid var(--light-blue);
+  }
+  footer {
+    margin: 50px;
+  }
+  @media only screen and (min-width: 1440px) {
+    .two-boxes {
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex-direction: row;
+      justify-content: space-between;
+      gap: 20px;
+    }
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
